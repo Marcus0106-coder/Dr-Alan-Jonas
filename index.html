@@ -8,6 +8,8 @@
 
     <!--feather icon-->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- swipers.jr-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
@@ -43,7 +45,7 @@
     </section>
 
     <!-- SEÇÂO APRESENTAÇÂO-->
-    <section class="apresentacao">
+    <section class="apresentacao ">
       <div class="Introdução">
         <h1 class="Titulo sobre mim">Sobre Mim</h1>
         <div class="flex justify-center items-center">
@@ -63,49 +65,77 @@
           tratamentos como implantes, próteses e prótese fixa. Meu objetivo é
           cuidar do sorriso dos pacientes com qualidade, atenção e tecnologia.
         </p>
-        </p>
+        
         <!-- a= ancora = anchor -->
       </article>
     </section>
 
 
       <div class="container"></div>
-    </section>
+    
 
     <!-- SEÇÂO PROCEDIMENTOS -->
      
-    <section class="procedimentos">
+    <section class="procedimentos flex justify-between">
        <img
             class="decoration-2"
-            src="public/Seção - Serviços (5).png"
+            src="public/Seção - Serviços (2).png"
             alt=""
           />
      
-        <header>
+        <header class="titulo-procedimentos flex ">
           <h1>
             Procedimentos
           </h1>
         </header>
         
-        
-          <div class="cartão flex flex-col items-center justify-between ">
-            <header >
-              <img class="icone-dente" src="public/icone dente.svg" alt="">
-            </header>
-            <h1>
-              Clareamento Dental
-            </h1>
-            <p>
-              Faça seu clareamento dental com segurança e veja a diferença em poucos dias. Resultado rápido e eficaz
-            </p>
-          </div>
+        <!-- role = paper -->
+          
+           <swiper-container space-between="-100" rewand class="honda">
+          <swiper-slide>
+            <div class="honda">
+              <div class="hondinha">
+                <img class="cartão implantes" src="public/Serviço Clareamento.png" alt="imagem da unidade 1 " />
+              </div>
+             
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="honda">
+              <div class="hondinha">
+                <img class="cartão implantes" src="public/Serviço Implante.png" alt="imagem da unidade 1 " />
+              </div>
+              
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div class="honda">
+              <div class="hondinha">
+                <img class="cartão Lente" src="public/Serviço Lente.png" alt="imagem da unidade 1 " />
+              </div>
+            </div>
+          </swiper-slide>
+        </swiper-container>
+         
       
 
 
     </section>
 
+    
+    <section>
+<img class="fundo perguntas" src="public/Seção - Perguntas Frequentes.png" alt="">
+    </section>
     <script>
       feather.replace();
+
+      //const=constante//
+      //menu=variavel//
+      const menu = document.querySelector("dialog");
+
+
+
+      
     </script>
   </body>
 </html>

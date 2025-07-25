@@ -32,7 +32,8 @@
   border-radius: 4px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
  position: absolute;
- top: 2448px;
+ top: 2642px;
+ right: 20px;
 }
 
 .accordion-item {
@@ -83,8 +84,8 @@
 
 
 .decoration-4 {
-  width: 130.44px;
-  height: 212px;
+  width: 410px;
+  height: 410px;
   flex-shrink: 0;
   background-color: var(--secundaria);
 
@@ -302,7 +303,15 @@ div[role="mask"] {
 /* código que será reutilizado em todo o website */
 
 /*Título*/
+[role="logo"] {
+  width: 160px;
+  height: 160px;
 
+  background-color: black;
+
+  mask: url("public/Vector-2.svg") no-repeat center;
+  mask-size: 100%;
+}
 /* seção */
 section {
   width: 100%;
@@ -456,7 +465,7 @@ footer {
 
   & [role="logo"] {
     width: 32px;
-    height: 32px;
+    height: 48px;
     background-color: white;
   }
 

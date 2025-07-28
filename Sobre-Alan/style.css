@@ -14,19 +14,18 @@
   --tom-3: #122a4b;
   --tom-4: #041833;
 
-  background-color: white;
+  background-color: #041833;
 }
 
 
 
-main{
-overflow: hidden;
-}
+
 
 
 .apresentacao {
   justify-content: space-between;
 }
+
 
 
 
@@ -146,23 +145,17 @@ overflow: hidden;
 }
 
 .procedimentos {
-
-align-items: center;
-
   .titulo-procedimentos {
     background-color: var(--tom-4);
     width: 472px;
     height: 75px;
 
     margin-top: 80px;
-    justify-content: center;
-    align-items: flex-end;
-
   }
-  
+
   & h1 {
     color: #fff;
-    
+
     /* Titulo */
     font-family: Exo;
     font-size: 24px;
@@ -170,7 +163,6 @@ align-items: center;
     font-weight: 700;
     line-height: normal;
     letter-spacing: -1.92px;
-    position: absolute;
   }
 
   .icone-dente {
@@ -277,9 +269,9 @@ align-items: center;
 }
 
 img {
-  width: 328px;
-  height: 439px;
-  flex-shrink: 0;
+  width: 300px;
+  
+ 
 }
 
 /* ***** */
@@ -348,10 +340,10 @@ img {
   }
 }
 div div[role="mask"] {
-  width: 316px;
-  height: 357px;
+  width: 300px;
+ 
   flex-shrink: 0;
-  border-radius: 8px;
+  
   display: flex;
   justify-content: 0;
 
@@ -361,27 +353,20 @@ div div[role="mask"] {
 }
 
 .Jonas {
-  width: 270px;
+  
+ 
 
+  margin-left: 30px; 
+
+
+  background-color: white;
   display: flex;
-  justify-content: center;
-  background-color: var(--tom-1);
+width: 316px;
+height: 420px;
+padding: 10px 17px 15px 16px;
+flex-direction: column;
 
-  text-align: left;
-
-  margin-left: 64px;
-
-  border-style: solid;
-  background-color: var(--tom-1);
-  border-image-source: linear-gradient(
-    30deg,
-    var(--tom-1) 60%,
-    var(--tom-3) 100%
-  );
-  border-image-slice: 1;
-  z-index: 1;
-  position: absolute;
-  margin-top: 400px;
+gap: 62px;
 }
 
 .honda {
@@ -425,13 +410,13 @@ section {
 
   display: flex;
   flex-direction: column;
-  
+  overflow: hidden;
 }
 
 /* PARÁGRAFO*/
 
 p {
-  font-size: 16px;
+  font-size: 11px;
   font-family: "Source Serif 4";
   opacity: 0.65;
 
@@ -467,11 +452,11 @@ button {
 
   /* Estilo*/
   border-radius: 8px;
-  background-color: var(--primaria);
+ 
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
   /* Tipografia*/
-  color: var(--tom-2);
+  color: white;
   font-family: Exo;
   font-size: 16px;
   font-style: normal;
@@ -597,7 +582,7 @@ footer {
     transition: all 150ms;
   }
   & a:hover {
-    color: var(--tom-1);
+    color: var();
   }
 }
 

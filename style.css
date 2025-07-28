@@ -277,7 +277,7 @@ align-items: center;
 }
 
 img {
-  width: 328px;
+  width: px;
   height: 439px;
   flex-shrink: 0;
 }
